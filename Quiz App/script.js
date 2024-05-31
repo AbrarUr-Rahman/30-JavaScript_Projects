@@ -77,20 +77,19 @@ function resetState() {
 }
 const selectAnswer = (e) => {
   const selectedBtn = e.target;
-  const isCorrect = selectedBtn.dataset.correct === "true";
+  const isCorrect = selectedBtn.dataset.correct === "true"; //!dataset
   if (isCorrect) {
     selectedBtn.classList.add("correct"); //!childList
     score++;
   } else {
     selectedBtn.classList.add("incorrect"); //!childList
   }
-
+  //!Array.from query
   Array.from(answerButton.children).forEach((button) => {
-    //!Array.from query
     if (button.dataset.correct === "true") {
       button.classList.add("correct"); //!childList
     }
-    button.disabled = true;
+    button.disabled = true; //# Disabled attribute
   });
   nextButton.style.display = "block";
 };
