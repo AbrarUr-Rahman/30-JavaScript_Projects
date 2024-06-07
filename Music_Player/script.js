@@ -1,5 +1,6 @@
 //todo: 1. Add forward/back button functionality
 //todo: 2. Add time under progress bar
+//todo: 3. Work on Dropdown menu
 
 let progress = document.getElementById("progress");
 let song = document.getElementById("song");
