@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif box-sizing: border-box;
+}
+
+body {
+    background: purple;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 100px;
+}
+
+#convert {
+    color: red;
+    font-size: 2.5rem;
+    text-decoration: underline white;
+    text-underline-offset: 10px;
+
+
+}
+
+textarea {
+    background: rgb(181, 145, 181);
+    font-size: 1rem;
+    height: 250px;
+    width: 450px;
+
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding-top: 10px;
+    padding-left: 5px;
+
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
