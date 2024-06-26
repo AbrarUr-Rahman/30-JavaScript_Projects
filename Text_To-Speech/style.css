@@ -6,15 +6,15 @@
     font-family: Arial, Helvetica, sans-serif box-sizing: border-box;
 }
 
-body {
-    background: purple;
-}
+
 
 h1 {
     text-align: center;
     color: white;
     font-size: 2.5rem;
-    margin-top: 100px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+
 }
 
 #convert {
@@ -24,6 +24,17 @@ h1 {
     text-underline-offset: 10px;
 
 
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 textarea {
@@ -37,10 +48,55 @@ textarea {
     outline: none;
     padding-top: 10px;
     padding-left: 5px;
+    resize: none;
 
 }
 
 ::placeholder {
     color: white;
     opacity: 1;
+}
+
+.row {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 17%;
+}
+
+button {
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    background-color: maroon;
+    padding: 10px 30px;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+
+}
+
+button img {
+    width: 16px;
+    margin-right: 10px;
+}
+
+select {
+    flex: 1;
+    color: white;
+    background-color: #403d84;
+    height: 50px;
+    padding: 0 40px;
+    outline: none;
+    border: none;
+    border-radius: 35px;
+    appearance: none;
+    background-image: url('images/dropdown.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: calc(90%-20px);
+    background-position-y: 20px;
+
+
 }
