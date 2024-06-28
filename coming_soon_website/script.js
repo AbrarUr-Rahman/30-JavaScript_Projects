@@ -1,7 +1,7 @@
-let countDownDate = new Date("July 22, 2025 00:00:00").getTime();
+let countDownDate = new Date("July 22, 2024 00:00:00").getTime();
 
 var x = setInterval(() => {
-  let now = new Date().getTime();
+  let now = new Date().getTime(); //!New date, Time
   let distance = countDownDate - now;
 
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -13,4 +13,12 @@ var x = setInterval(() => {
   document.getElementById("hours").innerHTML = hours;
   document.getElementById("minutes").innerHTML = minutes;
   document.getElementById("seconds").innerHTML = seconds;
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("days").innerHTML = "00";
+    document.getElementById("hours").innerHTML = "00";
+    document.getElementById("minutes").innerHTML = "00";
+    document.getElementById("seconds").innerHTML = "00";
+  }
 }, 1000);
