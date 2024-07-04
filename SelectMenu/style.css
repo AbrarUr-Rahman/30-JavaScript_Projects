@@ -34,6 +34,7 @@
 
 #selectField img {
     width: 12px;
+    transition: transform 0.5s;
 }
 
 #list {
@@ -65,4 +66,9 @@
 
 .hide {
     visibility: hidden;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    /*# Rotate Property */
 }
