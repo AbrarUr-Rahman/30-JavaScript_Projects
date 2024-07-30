@@ -7,10 +7,6 @@ Welcome to my repository of 30+ JavaScript projects! This collection showcases a
 - [Introduction](#introduction)
 - [Project List](#project-list)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
@@ -58,5 +54,5 @@ For a complete list, see the [Projects](projects) directory.
 To get started, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/AbrarUr-Rahman/JavaScript_Projects.git
+cd JavaScript_projects
